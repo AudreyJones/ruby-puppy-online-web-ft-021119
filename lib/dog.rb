@@ -4,6 +4,7 @@ class Dog
   @@all = []
 
   def initialize(name)
+  # Calling the setter, name=
     @name = name
     @@all << self
   end
